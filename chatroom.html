@@ -1,15 +1,15 @@
 <head>
-    <link rel="stylesheet" href="https://cdn.statically.io/gh/weberi/chatroom/master/dist/Chatroom.css" />
+    <link rel="stylesheet" href="Chatroom.css" />
 </head>
 <body>
     <div class="chat-container"></div>
-    <script src="https://cdn.statically.io/gh/weberi/chatroom/master/dist/Chatroom.js"></script>
+    <script src="Chatroom.js"></script>
     <script type="text/javascript">
     var chatroom = new window.Chatroom({
         host: "http://localhost:5005",
-        title: "Chat with a bot",
+        title: "Mika",
         container: document.querySelector(".chat-container"),
-        welcomeMessage: "Nice to meet you.",
+        welcomeMessage: "Hi, I'm Mika. How can I help you?",
         speechRecognition: "en-US",
         voiceLang: "en-US"
     });
